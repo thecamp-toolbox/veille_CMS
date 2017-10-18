@@ -1,0 +1,35 @@
+title: Item
+
+pages: false
+
+fields:
+  prevnext: prevnext
+  title:
+    label: Title
+    type:  text
+  creator: 
+    label: Creator 
+    type: text 
+    width: 1/2
+  location: 
+    label: Location
+    type: text 
+    width: 1/2 
+  img:
+    label: Image URL (option 1)
+    type: url 
+    width: 1/2
+  slideimg: 
+    label: Image selector (option 2)
+    type: selector
+    mode: single
+    width: 1/2
+    types:
+      - image
+  description: 
+    label: Description
+    type: textarea
+  link: 
+    label: Link 
+    type: URL 
+    width: 1/2 

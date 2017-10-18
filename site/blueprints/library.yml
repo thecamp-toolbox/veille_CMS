@@ -1,0 +1,18 @@
+title: Library
+
+pages: 
+  template: collection 
+  hide: true
+files: false
+
+
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+  collections: 
+    label: Collections
+    type: subpageList 

@@ -1,0 +1,21 @@
+title: Quote
+
+pages: false
+files: false
+
+fields:
+  prevnext: prevnext
+  title:
+    label: Title
+    type:  text
+  description: 
+    label: Quote
+    type: textarea 
+  creator: 
+    label: Creator 
+    type: text 
+    width: 1/2
+  link: 
+    label: Link 
+    type: URL 
+    width: 1/2 

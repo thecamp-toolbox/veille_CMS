@@ -1,0 +1,13 @@
+Title: RADAR thecamp
+
+----
+
+Author: Arthur Schmitt
+
+----
+
+Description: Outil de synthèse de veille de thecamp
+
+----
+
+Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
