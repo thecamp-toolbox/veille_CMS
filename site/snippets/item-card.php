@@ -25,8 +25,14 @@
 		<?php endif ?>
 		<?php if ($item->location() != '') : ?>
 			<h6 class="card-subtitle mb-2 text-muted">
-		        <i class="fa fa-map-pin"></i>
+		        <i class="fa fa-map-marker"></i>
 		        <?= $item->location() ?>
+		    </h6>
+		<?php endif ?>
+		<?php if ($item->year() != '') : ?>
+			<h6 class="card-subtitle mb-2 text-muted">
+		        <i class="fa fa-bolt"></i>
+		        <?= $item->year() ?>
 		    </h6>
 		<?php endif ?>
 		<p class="card-text"><?= $item->description()->kirbytext() ?></p>

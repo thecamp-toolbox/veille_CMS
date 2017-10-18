@@ -15,6 +15,17 @@ fields:
     label: Location
     type: text 
     width: 1/2 
+  year: 
+    label: Year 
+    type: number
+    width: 1/2
+  typology: 
+    label: Typologie
+    type: select 
+    options: query
+    query: 
+      page: categories
+    width: 1/2 
   img:
     label: Image URL (option 1)
     type: url 

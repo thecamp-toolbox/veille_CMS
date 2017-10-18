@@ -10,7 +10,7 @@ Link: https://www.amazon.fr/Design-Real-World-en-anglais/dp/0500273588/ref=sr_1_
 
 ----
 
-Location: 
+Location: Montréal
 
 ----
 
@@ -27,3 +27,11 @@ Img:
 ----
 
 Slideimg: papanek.jpg
+
+----
+
+Year: 2005
+
+----
+
+Typology: 
