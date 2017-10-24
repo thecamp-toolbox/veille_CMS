@@ -1,0 +1,40 @@
+Prevnext: 
+
+----
+
+Title: Culture Lab X
+
+----
+
+Creator: Josh Levine
+
+----
+
+Location: Amérique du Nord
+
+----
+
+Year: 
+
+----
+
+Typology: change-makers
+
+----
+
+Img: 
+
+----
+
+Slideimg: culture-lab-x.png
+
+----
+
+Description: 
+
+Communauté internationale travaillant sur le futur du travail. 
+Ils organisent des workshops thématiques un peu partout en Amérique du Nord. Ils sont organisés en chapitres locaux appelés 'Labs' développés par des individus autonomes.
+
+----
+
+Link: http://culturelabx.com/

@@ -35,11 +35,26 @@
 		        <?= $item->year() ?>
 		    </h6>
 		<?php endif ?>
-		<p class="card-text"><?= $item->description()->kirbytext() ?></p>
+
+		<?php if ($item->description() != '') : ?>
+			<hr>
+		<?php endif ?>
+
+		<p class="card-text">
+			<?= $item->description()->kirbytext() ?>
+		</p>
+
 		<?php if ($item->link() != '') : ?>
 			<a href="<?= $item->link() ?>" class="card-link" target="_blank">
-				En savoir plus
+				Lire
 			</a>
 		<?php endif ?>
+	</div><!-- end card body -->
+	<div class="card-footer text-muted">
+		<?php $cat = $pages->find('categories/'.$item->typology()) ?>
+		<small>
+			<i class="fa fa-<?= $cat->awesome() ?>"></i>
+			<?= $cat->title() ?>
+		</small>
 	</div>
 </div>

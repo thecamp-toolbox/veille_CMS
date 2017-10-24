@@ -1,10 +1,16 @@
+blockquote {
+  font-style: italic; 
+}
+
+.mt {
+  margin-top: 50px;
+}
 .navbar {
   margin-bottom: 0;
 }
 .card {
   margin-bottom: 2rem;
 }
-
 .jumbotron {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -46,8 +52,22 @@ footer p {
     column-count: 5;
   }
 }
+p+blockquote {
+  border-left: #868e96 2px solid;
+  padding-left: 10px;
+}
+.bg-light {
+  background-color: #efeeee !important;
+}
 .card-img-top {
   text-align: center;
+}
+.card hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.card-subtitle {
+  font-weight: 400;
 }
 .twitter-tweet {
   margin-top: 0px !important; 

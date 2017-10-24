@@ -1,0 +1,48 @@
+Prevnext: 
+
+----
+
+Title: The little book of IDEO
+
+----
+
+Creator: IDEO
+
+----
+
+Location: 
+
+----
+
+Year: 
+
+----
+
+Typology: inspiration
+
+----
+
+Img: 
+
+----
+
+Slideimg: 
+
+----
+
+Description: 
+
+Beau site qui décrit la manière dont IDEO fonctionne. 
+En particulier, les 7 valeurs qui lient tous ceux qui y travaillent : 
+
+- Be optimistic 
+- Collaborate 
+- Take Ownership 
+- Embrace Embiguity 
+- Talk less, do more 
+- Learn from failure 
+- Make others successful
+
+----
+
+Link: https://lboi.ideo.com/

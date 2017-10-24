@@ -3,3 +3,7 @@ Title: Fact
 ----
 
 Text: 
+
+----
+
+Awesome: bar-chart

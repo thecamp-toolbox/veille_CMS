@@ -16,6 +16,7 @@
     </div>
   </footer>
 
+  <?= js('assets/js/jquery-slim.min.js') ?>
   <?= js('assets/js/bootstrap.min.js') ?>
 
 </body>

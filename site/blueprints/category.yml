@@ -7,6 +7,11 @@ fields:
   title:
     label: Title
     type: title
+    width: 1/2
+  awesome:
+    label: Font Awesome Icon
+    type: text 
+    width: 1/2
   text: 
     label: Description
     type: textarea 

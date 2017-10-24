@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card quote bg-light">
 	<div class="card-body">
 		<blockquote class="blockquote">
 			<i class="fa fa-quote-left"></i>

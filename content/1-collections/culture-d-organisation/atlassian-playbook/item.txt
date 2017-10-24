@@ -1,0 +1,46 @@
+Prevnext: 
+
+----
+
+Title: Atlassian team playbook
+
+----
+
+Creator: 
+
+----
+
+Location: 
+
+----
+
+Year: 
+
+----
+
+Typology: inspiration
+
+----
+
+Img: 
+
+----
+
+Slideimg: 
+
+----
+
+Description: 
+
+Le livret détaillant la culture interne d'Atlassian. 
+Intéressant parce qu'il cherche à proposer des solutions concrètes à des problèmes potentiels. Par exemple : 
+- priorités contradictoires 
+- mauvaise connaissance client 
+- manque de prise de décision 
+- stagnation
+- manque de communication 
+- manque d'*ownership*
+
+----
+
+Link: https://www.atlassian.com/team-playbook

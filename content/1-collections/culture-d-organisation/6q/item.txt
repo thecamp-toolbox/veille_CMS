@@ -1,0 +1,37 @@
+Prevnext: 
+
+----
+
+Title: 6Q
+
+----
+
+Creator: 
+
+----
+
+Location: 
+
+----
+
+Year: 
+
+----
+
+Typology: tool
+
+----
+
+Img: 
+
+----
+
+Slideimg: 
+
+----
+
+Description: Système de mesure de l'engagement des employés pour développer la culture d'une organisation.
+
+----
+
+Link: https://www.6q.io/
