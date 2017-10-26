@@ -1,0 +1,41 @@
+Prevnext: 
+
+----
+
+Title: Great Monday
+
+----
+
+Creator: 
+
+----
+
+Location: USA
+
+----
+
+Year: 
+
+----
+
+Typology: change-makers
+
+----
+
+Img: 
+
+----
+
+Slideimg: greatmonday.png
+
+----
+
+Description: L'avènement d'un nouveau type d'agence de conseil : les agences spécialisées dans la culture d'entreprise.
+
+----
+
+Link: https://www.greatmonday.com/
+
+----
+
+Baseline: Culture Design for technology and social enterprise

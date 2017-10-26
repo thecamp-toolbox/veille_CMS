@@ -4,6 +4,9 @@
 	    <div class="container">
 	    	<h1 class="jumbotron-heading"><?= $page->title() ?></h1>
 	    	<p class="lead text-muted"><?= $page->text()->kirbytext() ?></p>
+	    	<?php if ($site->user()) : ?>
+	    		<p class="text-muted"><a href="<?= $site->url().'/panel/pages/'.$page->uri().'/edit' ?>" target="_blank">Edit</a></p>
+	    	<?php endif ?>
 	    </div>
     </section>
 

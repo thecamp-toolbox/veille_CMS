@@ -16,7 +16,12 @@
 	<?php endif ?>
 
 	<div class="card-body">
-		<h4 class="card-title"><?= $item->title() ?></h4>
+		<h4 class="card-title">
+			<?= $item->title() ?>
+			<a href="<?= $item->link() ?>" target="_blank">
+				<i class="fa fa-external-link"></i>
+			</a>		
+		</h4>
 		<?php if ($item->creator() != '') : ?>
 			<h6 class="card-subtitle mb-2 text-muted">
 		        <i class="fa fa-user"></i>

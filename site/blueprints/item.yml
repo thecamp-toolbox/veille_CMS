@@ -37,10 +37,14 @@ fields:
     width: 1/2
     types:
       - image
-  description: 
-    label: Description
-    type: textarea
   link: 
     label: Link 
     type: URL 
     width: 1/2 
+  baseline: 
+    label: Baseline
+    type: text 
+    width: 1/2
+  description: 
+    label: Description
+    type: textarea
