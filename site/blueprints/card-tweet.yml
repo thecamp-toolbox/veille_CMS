@@ -1,0 +1,13 @@
+title: Tweet
+
+pages: false
+files: false
+
+fields:
+  prevnext: prevnext
+  title:
+    label: Title
+    type:  text
+  tweetid:
+    label: Tweet link 
+    type: url

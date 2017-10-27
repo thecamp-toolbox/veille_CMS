@@ -32,10 +32,12 @@
 	        <div class="card-columns">
 	        	<?php foreach ($page->children() as $item) : ?>
 	        		<?php 
-	        			if ($item->template() == 'item') {
+	        			if ($item->template() == 'card-item') {
 	        				snippet('item-card', array('item'=>$item));
-	        			} elseif ($item->template() == 'quote') {
+	        			} elseif ($item->template() == 'card-quote') {
 	        				snippet('quote-card', array('item'=>$item));
+	        			} elseif ($item->template() == 'card-tweet') {
+	        				snippet('tweet-card', array('item'=>$item));
 	        			}
 	        		?>
 	        	<?php endforeach ?>

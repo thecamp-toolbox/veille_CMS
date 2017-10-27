@@ -2,8 +2,9 @@ title: Collection
 
 pages: 
   template: 
-    - item
-    - quote
+    - card-item
+    - card-quote
+    - card-tweet
   hide: true
 files: false 
 
