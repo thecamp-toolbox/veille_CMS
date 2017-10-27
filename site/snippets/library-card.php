@@ -1,6 +1,6 @@
 <div class="card">
 	<div class="card-header">
-		<h4><?= $lib->title() ?></h4>
+		<h4><i class="fa fa-book"></i>  <?= $lib->title() ?></h4>
 	</div>
 	<div class="card-body">
 		<p class="card-text"><?= $lib->text()->excerpt(600) ?>...</p>

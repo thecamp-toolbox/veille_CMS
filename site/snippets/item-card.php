@@ -22,25 +22,7 @@
 				<i class="fa fa-external-link"></i>
 			</a>		
 		</h4>
-		<?php if ($item->creator() != '') : ?>
-			<h6 class="card-subtitle mb-2 text-muted">
-		        <i class="fa fa-user"></i>
-		        <?= $item->creator() ?>
-		    </h6>
-		<?php endif ?>
-		<?php if ($item->location() != '') : ?>
-			<h6 class="card-subtitle mb-2 text-muted">
-		        <i class="fa fa-map-marker"></i>
-		        <?= $item->location() ?>
-		    </h6>
-		<?php endif ?>
-		<?php if ($item->year() != '') : ?>
-			<h6 class="card-subtitle mb-2 text-muted">
-		        <i class="fa fa-bolt"></i>
-		        <?= $item->year() ?>
-		    </h6>
-		<?php endif ?>
-
+		
 		<?php if ($item->description() != '') : ?>
 			<hr>
 		<?php endif ?>
@@ -51,15 +33,37 @@
 
 		<?php if ($item->link() != '') : ?>
 			<a href="<?= $item->link() ?>" class="card-link" target="_blank">
-				Lire
+				<?php if ($item->typology() == 'fact') : ?>
+					Source
+				<?php else : ?>
+					Lire
+				<?php endif?>
 			</a>
 		<?php endif ?>
 	</div><!-- end card body -->
-	<div class="card-footer text-muted">
-		<?php $cat = $pages->find('categories/'.$item->typology()) ?>
-		<small>
-			<i class="fa fa-<?= $cat->awesome() ?>"></i>
-			<?= $cat->title() ?>
-		</small>
-	</div>
+
+	<?php if ($item->typology() != '' || $item->creator() != '' || $item->location() || $item->year()) : ?>
+		<div class="card-footer text-muted">
+			<small>
+				<?php if ($item->typology() != '') : ?>
+					<?php $cat = $pages->find('categories/'.$item->typology()) ?>
+					<i class="fa fa-<?= $cat->awesome() ?>"></i>
+					<?= $cat->title() ?>
+				<?php endif ?>
+				<?php if ($item->creator() != '') : ?>
+				        <i class="fa fa-user"></i>
+				        <?= $item->creator() ?>
+				<?php endif ?>
+				<?php if ($item->location() != '') : ?>
+				        <i class="fa fa-map-marker"></i>
+				        <?= $item->location() ?>
+				<?php endif ?>
+				<?php if ($item->year() != '') : ?>
+				        <i class="fa fa-calendar-o"></i>
+				        <?= $item->year() ?>
+				<?php endif ?>
+			</small>
+		</div><!-- end card-footer -->
+	<?php endif ?>
+
 </div>

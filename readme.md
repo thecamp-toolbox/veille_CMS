@@ -8,11 +8,18 @@ Une manière d'approfondir des sujets.
 
 Permet d'intégrer une citation. 
 
+### Carte 'tweet'
+
+Embedder un Tweet
+
 ### Carte 'item' 
 
-Permet d'intégrer un item générique.
+Permet d'intégrer un item générique (couteau Suisse).
 
 ## TODO 
 
-- ajouter navigation en haut entre les collections d'une même bibliothèque 
+- Belle manière de présenter la Baseline 
+- Solution pour pas loader le js Twitter avec chaque carte tweet. 
+- Bouger les arrows et faire passer celle de gauche en dessous sur mobile 
+
 

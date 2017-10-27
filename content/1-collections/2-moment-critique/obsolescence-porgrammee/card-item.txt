@@ -1,0 +1,50 @@
+Prevnext: 
+
+----
+
+Title: Obsolescence porgrammée - infographie
+
+----
+
+Creator: EarthHour
+
+----
+
+Location: 
+
+----
+
+Year: 
+
+----
+
+Typology: deep-dive
+
+----
+
+Img: 
+
+----
+
+Slideimg: obsolescence.png
+
+----
+
+Link: http://earthhour.fr/infographie/obsolescence_qqf/index.html
+
+----
+
+Baseline: 
+
+----
+
+Description: 
+
+Inforgraphie très bien réalisée qui présente un historique, ainsi que les 6 pratiques principales qui réduisent la durée de vie d'un produit : 
+
+1. Les rendre impossibles à réparer 
+1. Les rendre incompatibles 
+1. Les rendre fragiles 
+1. Intégrer des notifications trompeuses 
+1. Détourner l'argument écologique 
+1. Jouer sur l'effet de mode

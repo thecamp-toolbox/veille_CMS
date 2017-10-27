@@ -10,7 +10,7 @@ Creator: Josh Levine
 
 ----
 
-Location: Amérique du Nord
+Location: USA
 
 ----
 
@@ -38,3 +38,7 @@ Ils organisent des workshops thématiques un peu partout en Amérique du Nord. I
 ----
 
 Link: http://culturelabx.com/
+
+----
+
+Baseline: 
