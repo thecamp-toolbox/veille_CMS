@@ -9,10 +9,12 @@
     <?= $page->text()->kirbytext() ?>
   </div>
 
-  <div class="container mt"><!-- loop through visible libraries -->
-    <?php foreach ($site->pages()->visible() as $lib) : ?>
-      <?php snippet('library-card', array('lib' => $lib)) ?>
-    <?php endforeach ?>
-  </div> <!-- end container -->
+  <?php foreach ($site->pages()->visible() as $lib) : ?>
+    <hr>
+    <?php snippet('library-card', array('lib' => $lib)) ?>
+  <?php endforeach ?>
+
+  <hr>
+
 
 <?php snippet('footer') ?>

@@ -6,16 +6,13 @@
 </div>
 
 <div class="container">
-  
-  <?php if ($page->hasChildren()) : ?>
-	<?php foreach ($page->children() as $c) : ?>
-
-	    <a href="<?= $c->url() ?>">
-	    	<h3><?= $c->title() ?></h3>
-	    </a>
-	   	<?= $c->text() ?>
-	<?php endforeach ?>
-  <?php endif ?>
+  <div class="card-deck">
+	  <?php if ($page->hasChildren()) : ?>
+		<?php foreach ($page->children() as $col) : ?>
+			<?php snippet('collection-card', array('col' => $col)) ?>
+		<?php endforeach ?>
+	  <?php endif ?>
+  </div>
 </div>
 
 <?php snippet('footer') ?>

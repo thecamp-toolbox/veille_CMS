@@ -1,18 +1,11 @@
-<div class="card">
-	<div class="card-header">
-		<h4><i class="fa fa-book"></i>  <?= $lib->title() ?></h4>
-	</div>
-	<div class="card-body">
-		<p class="card-text"><?= $lib->text()->excerpt(600) ?>...</p>
-			<a href="<?= $lib->url() ?>" class="btn btn-primary">Lire</a>
-	</div>
-	<ul class="list-group list-group-flush">
-		<?php foreach ($lib->children() as $col) : ?>
-		    <li class="list-group-item">
-		    	<a href="<?= $col->url() ?>">
-		    		<?= $col->title() ?> (<?= $col->children()->count() ?>)
-		    	</a>
-			</li>
+<div class="container">
+	<h4><a href="<?= $lib->url() ?>"><?= $lib->title() ?></a></h4>
+
+	<p class="card-text"><?= $lib->text()->excerpt(200) ?></p>
+
+	<div class="card-deck">
+		<?php foreach ($lib->children()->limit(3) as $col) : ?>
+			<?php snippet('collection-card', array('col' => $col)) ?>
 		<?php endforeach ?>
-	 </ul>
+	 </div>
 </div>

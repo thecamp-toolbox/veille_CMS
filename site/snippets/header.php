@@ -8,6 +8,8 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
+  <link rel="icon" type="image/png" href="<?= $site->url() ?>/assets/images/favicons/favicon.png">
+
   <?= css('assets/css/bootstrap.min.css') ?>
   <?= css('assets/css/font-awesome.min.css') ?>
 
