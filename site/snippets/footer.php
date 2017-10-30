@@ -4,11 +4,12 @@
 
       <div class="row">
         <div class="col-sm-8">
-          <p>This is a test for project documentation using Bootstrap 4.0. <br>Different types of objects can be added and hopefully, it can be 'printed to PDF' pretty easily.</p>
+          <p>Ce site est la plateforme de synthèse de veille de <a href="http://thecamp.fr" target="_blank">thecamp</a>. Des collections sont ajoutées régulièrement. Chacune s'appuie sur les contributions de l'équipe de thecamp, des partenaires et des <i>campers</i> présents sur le site.</p>
+          <p>Pour proposer une idée ou faire remonter un bug, c'est par <a href="https://github.com/thecamp-toolbox/veille_CMS/issues" target="_blank">là</a>.</p>
         </div>
         <div class="col-sm-4">
           <p class="float-right">
-            <a href="#">Back to top</a>
+            <a href="#">Retour en haut</a>
           </p>
         </div>
       </div>

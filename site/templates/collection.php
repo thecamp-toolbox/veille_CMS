@@ -11,7 +11,10 @@
 					<?php endif ?>
 		    	</div>
 		    	<div class="col-sm-8 text-center">
-			    	<h1 class="jumbotron-heading"><?= $page->title() ?></h1>
+			    	<h1 class="jumbotron-heading">
+			    		<i class="fa fa-book"></i>
+			    		<?= $page->title() ?>
+			    	</h1>
 			    	<p class="lead text-muted"><?= $page->text()->kirbytext() ?></p>
 			    	<?php if ($site->user()) : ?>
 			    		<p class="text-muted"><a href="<?= $site->url().'/panel/pages/'.$page->uri().'/edit' ?>" target="_blank">Edit</a></p>

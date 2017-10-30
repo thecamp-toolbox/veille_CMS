@@ -17,3 +17,11 @@
 
 </head>
 <body>
+
+	<?php if ($page->template() != 'home') : ?>
+		<nav>
+			<a href="<?= $site->url() ?>" class="nav text-muted">
+				<h5><i class="fa fa-home"></i></h5>
+			</a>
+		</nav>
+	<?php endif ?>

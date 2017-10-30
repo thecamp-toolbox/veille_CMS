@@ -41,8 +41,10 @@ Outil de feedback pour faire d'une organisation un super endroit où travailler.
 
 Utilisé par de grandes entreprises (AirBnb, Yelp, Slack, etc.).
 
-> Make your company a better place to work
-
 ----
 
 Link: https://www.cultureamp.com/
+
+----
+
+Baseline: Make your company a better place to work

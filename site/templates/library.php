@@ -1,8 +1,10 @@
 <?php snippet('header') ?>
 
 <div class="jumbotron text-center">
-	<h1 class="jumbotron-heading"><?= $page->title() ?></h1>
-	<p class="lead text-muted"><?= $page->text()->kirbytext() ?></p>
+	<div class="container">
+		<h1 class="jumbotron-heading"><?= $page->title() ?></h1>
+		<p class="lead"><?= $page->text()->kirbytext() ?></p>
+	</div>
 </div>
 
 <div class="container">
@@ -14,5 +16,7 @@
 	  <?php endif ?>
   </div>
 </div>
+
+<hr>
 
 <?php snippet('footer') ?>

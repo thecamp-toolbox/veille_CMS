@@ -29,6 +29,11 @@
 
 		<p class="card-text">
 			<?= $item->description()->kirbytext() ?>
+			<?php if ($item->baseline() != '') : ?>
+				<div class="alert alert-secondary" role="alert">
+				  <?= $item->baseline() ?>
+				</div>
+			<?php endif ?>
 		</p>
 
 		<?php if ($item->link() != '') : ?>

@@ -1,4 +1,4 @@
-<div class="card border-dark collection">
+<div class="card border-dark collection text-center">
 	<div class="card-header border-dark">
 		<h4>
 			<i class="fa fa-book"></i>

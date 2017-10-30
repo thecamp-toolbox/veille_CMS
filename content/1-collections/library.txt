@@ -2,4 +2,4 @@ Title: Collections
 
 ----
 
-Text: On retrouve ici toutes les collections liées à des programmes thecamp ou autres.
+Text: Cette bibliothèque réunit pour l'instant toutes les collections, qu'elles soient lieés à des programmes de thecamp, aux challenges, ou tout autre sujet. À terme, l'idée est d'avoir des bibliothèques thématiques contenant chacune plusieurs collections.
