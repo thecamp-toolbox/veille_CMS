@@ -1,7 +1,7 @@
 title: Site
 
 pages: 
-  template: collections
+  template: library
 
 fields:
   title:

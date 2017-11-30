@@ -18,7 +18,7 @@ Permet d'intégrer un item générique (couteau Suisse).
 
 ## TODO 
 
-- Navigation
+- Cacher navigation dans les bibliothèques cachées 
 - Plugin Embed (https://github.com/distantnative/embed) 
 - Bouger les arrows et faire passer celle de gauche en dessous sur mobile sur la collection
 
