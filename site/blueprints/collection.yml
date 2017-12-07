@@ -9,6 +9,7 @@ pages:
 files: false 
 
 fields:
+  prevnext: prevnext
   title:
     label: Title
     type:  text

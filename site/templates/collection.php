@@ -11,8 +11,9 @@
 					<?php endif ?>
 		    	</div>
 		    	<div class="col-sm-8 text-center">
+		    		<a href="<?= $page->parent()->url() ?>" class="text-muted"><?= $page->parent()->title() ?></a>
 			    	<h1 class="jumbotron-heading">
-			    		<i class="fa fa-book"></i>
+			    		<i class="fa fa-bookmark-o"></i>
 			    		<?= $page->title() ?>
 			    	</h1>
 			    	<p class="lead text-muted"><?= $page->text()->kirbytext() ?></p>

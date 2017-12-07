@@ -1,0 +1,41 @@
+Prevnext: 
+
+----
+
+Title: Je pense donc je fais (France Culture)
+
+----
+
+Creator: 
+
+----
+
+Location: 
+
+----
+
+Year: 
+
+----
+
+Typology: 
+
+----
+
+Img: https://www.franceculture.fr/s3/cruiser-production/2017/09/8f0517a1-a1b6-4926-90d2-99a9fe733dcc/738_eeg.jpg
+
+----
+
+Slideimg: 
+
+----
+
+Link: https://www.franceculture.fr/emissions/la-methode-scientifique/interface-cerveau-machine-je-pense-donc-je-fais
+
+----
+
+Baseline: 
+
+----
+
+Description: 

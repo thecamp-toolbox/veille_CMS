@@ -40,6 +40,8 @@
 			<a href="<?= $item->link() ?>" class="card-link" target="_blank">
 				<?php if ($item->typology() == 'fact') : ?>
 					Source
+				<?php elseif ($item->typology() == 'video') : ?>
+					Voir
 				<?php else : ?>
 					Lire
 				<?php endif?>
@@ -47,7 +49,7 @@
 		<?php endif ?>
 	</div><!-- end card body -->
 
-	<?php if ($item->typology() != '' || $item->creator() != '' || $item->location() || $item->year()) : ?>
+	<?php if ($item->typology() != '' || $item->creator() != '' || $item->location() != '' || $item->year() != '') : ?>
 		<div class="card-footer text-muted">
 			<small>
 				<?php if ($item->typology() != '') : ?>

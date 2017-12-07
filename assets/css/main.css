@@ -118,3 +118,6 @@ h4>a>.fa {
   padding: 3px 10px; 
   z-index: 100;
 }
+.card {
+  min-width: 350px;
+}
